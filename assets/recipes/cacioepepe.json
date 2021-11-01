@@ -1,0 +1,203 @@
+				
+{
+    "@context": "http://schema.org",
+    
+    "@type": ["Recipe"]
+    ,"headline": "Cacio e Pepe (Spaghetti With Black Pepper and Pecorino Romano) Recipe"
+    ,"datePublished": "2016-02-23T02:30:00.000-05:00"
+    ,"dateModified": "2021-03-23T13:22:12.000-04:00"
+    ,"author": [
+    {"@type": "Person"
+    ,"name": "J. Kenji López-Alt"
+    ,"description": "Kenji is the former culinary director for Serious Eats and a current culinary consultant for the site. He is also a New York Times food columnist and the author of The Food Lab: Better Home Cooking Through Science."
+    ,"jobTitle": "Culinary Consultant"
+    ,"sameAs": [
+    "https://www.instagram.com/kenjilopezalt/",
+    "http://www.kenjilopezalt.com/",
+    "https://www.seriouseats.com/j-kenji-l-pez-alt-5118720"
+    ]
+    ,"knowsAbout": ["Food science, Recipe development, Equipment reviews, Restaurant reviews , General food features"]
+    }
+    ]
+    ,"description": "Pasta, black pepper, and Pecorino Romano join together to form one of the best Roman pasta dishes. Here&#39;s how to perfect it, every time."
+    ,"image": [
+    {
+    "@type": "ImageObject",
+    "url": "https://www.seriouseats.com/thmb/pqtEGMyqOFx_9oAwCauG5hroy2Y=/1500x844/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2016__02__20210202-cacio-e-pepe-redo-sasha-marx-f3d02254f40c4c93ac64a00f20b82659.jpg",
+    "height": 844,
+    "width": 1500
+    },
+    {
+    "@type": "ImageObject",
+    "url": "https://www.seriouseats.com/thmb/Ih_82dieOD-J0ncQz4SnxfXQKO4=/1500x1125/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2016__02__20210202-cacio-e-pepe-redo-sasha-marx-f3d02254f40c4c93ac64a00f20b82659.jpg",
+    "height": 1125,
+    "width": 1500
+    },
+    {
+    "@type": "ImageObject",
+    "url": "https://www.seriouseats.com/thmb/DqKyyl5x_BWYJRw8uCBktBDw4Es=/1125x1125/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2016__02__20210202-cacio-e-pepe-redo-sasha-marx-f3d02254f40c4c93ac64a00f20b82659.jpg",
+    "height": 1125,
+    "width": 1125
+    }
+    ]
+    ,"video": {
+    "@type": "VideoObject",
+    "contentUrl": "https://cdn.jwplayer.com/videos/kt12Sif9-tXzwfO7V.mp4",
+    "description": "A demonstration of how to make the classic Roman dish of spaghetti with Pecorino Romano and black pepper. [Technique: Sasha Marx. Video: Serious Eats Video.]",
+    "duration": "PT1M9S",
+    "name": "Cacio e Pepe (Spaghetti With Black Pepper and Pecorino Romano)",
+    "thumbnailUrl": "https://cdn.jwplayer.com/v2/media/kt12Sif9/poster.jpg?width=720",
+    "uploadDate": "2021-04-20T20:19:28.940Z"}
+    ,"publisher": {
+    "@type": "Organization",
+    "name": "Serious Eats",
+    "url": "https://www.seriouseats.com",
+    "logo": {
+    "@type": "ImageObject",
+    "url": "https://www.seriouseats.com/thmb/O7qOTYhS4IAKSKnr4JmNDURwjhw=/320x320/filters:no_upscale():max_bytes(150000):strip_icc()/Serious_Eats_Schema_Logo-033d1e058bdb4c8d9e0ada84a4485482.png",
+    "width": 320,
+    "height": 320
+    },
+    "brand": "Serious Eats"
+    , "publishingPrinciples": "https://www.seriouseats.com/about-us-5120006#editorial-guidelines"
+    }
+    ,"name": "Cacio e Pepe (Spaghetti With Black Pepper and Pecorino Romano) Recipe"
+    ,"aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "ratingCount": "70"
+    }
+    ,"keywords": "cacio e pepe, Italian, pasta, quick"
+    ,"nutrition": {
+    "@type": "NutritionInformation"
+    ,"calories": "416 kcal"
+    ,"carbohydrateContent": "24 g"
+    ,"cholesterolContent": "40 mg"
+    ,"fiberContent": "1 g"
+    ,"proteinContent": "10 g"
+    ,"saturatedFatContent": "11 g"
+    ,"sodiumContent": "381 mg"
+    ,"sugarContent": "1 g"
+    ,"fatContent": "31 g"
+    ,"servingSize": "Serves 2 to 3"
+    ,"unsaturatedFatContent": "0 g"
+    }
+    , "recipeCategory": ["Mains"]
+    ,"recipeCuisine": ["Italian"]
+    ,"recipeIngredient": [
+    "4 tablespoons (60ml) extra-virgin olive oil, divided",
+    "Coarsely ground black pepper, to taste",
+    "Kosher salt, to taste",
+    "1/2 pound (225g) spaghetti",
+    "2 tablespoons (30g) unsalted butter",
+    "2 ounces Pecorino Romano cheese (about 1 cup; 55g), very finely grated on a Microplane or the smallest holes of a box grater, plus more for serving" ]
+    ,"recipeInstructions": [
+    {
+    "@type": "HowToStep"
+    ,"text": "Heat 3 tablespoons olive oil and about a teaspoon of black pepper in a medium skillet over medium-low heat until ingredients are fragrant and pepper is barely starting to sizzle, about 1 minute. Set aside."
+    } ,{
+    "@type": "HowToStep"
+    ,"image": {
+    "@type": "ImageObject",
+    "url": "https://www.seriouseats.com/thmb/L8NJSZi9Wormr43vjjizg33irJE=/1500x1125/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__20160220-cacio-e-pepe-10-kenji-pasta-water-d65fe09223b24f628d953fa17b50912b.jpg",
+    "height": 1125,
+    "width": 1500
+    }
+    ,"text": "Place spaghetti in a large skillet and cover with water. Season with a small pinch of salt, then bring to a boil over high heat, prodding spaghetti occasionally with a fork or wooden spoon to prevent it from clumping. Cook until spaghetti is al dente (typically about 1 minute less than the package recommends). Transfer 2 to 3 tablespoons of pasta cooking water to the skillet with the olive oil/pepper mixture. Stir in butter. Using tongs, lift spaghetti and transfer it to the oil/butter mixture."
+    } ,{
+    "@type": "HowToStep"
+    ,"image": {
+    "@type": "ImageObject",
+    "url": "https://www.seriouseats.com/thmb/OLHgDOqOiFGPnhobtbiwWyD1F-8=/1500x1125/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__20160220-cacio-e-pepe-16-kenji-adding-cheese-composite-0a6a4192097d4b0ba9acf7f983033a7e.jpg",
+    "height": 1125,
+    "width": 1500
+    }
+    ,"text": "Add cheese and remaining tablespoon olive oil to the skillet and stir with a fork until cheese is completely melted. Add a few more tablespoons of pasta water to the skillet to adjust consistency, reheating as necessary until the sauce is creamy and coats each strand of spaghetti. Season to taste with salt and more black pepper. Serve immediately, passing extra grated cheese and black pepper at the table."
+    } ]
+    ,"recipeYield": "3"
+    ,"totalTime": "PT15M"
+    ,"review": [
+    {
+    "@type": "Review",
+    "author": {
+    "@type": "Person",
+    "name": "bluerroses"
+    },
+    "reviewBody": "Fantastic! Now in my permanent rotation, I can pull it out when a quick, meal of sophisticated comfort food is called for. \n\nThis is obviously Kenji's version. What's the point of tearing into every recipe and pointing out perceived flaws, without even trying it? Who cares if it's authentic? Since when do we insist on purism? If you want authentic, ask a Roman cook or google the recipe."
+    }
+    ,
+    {
+    "@type": "Review",
+    "author": {
+    "@type": "Person",
+    "name": "Jaybles"
+    },
+    "reviewBody": "@gregbythesea This recipe doesn't use eggs so I'm not sure what you're on about. While you're right that butter isn't traditional, I think we can take a step back from Italy's hyper-regionalism and admit that olive oil is hardly the blasphemy you make it out to be.\n\n@Deb4747 So you're telling me the original home of \"Cacio e Pepe\" (which literally translates to \"cheese and pepper\") doesn't use pepper? The cheese is most definitely pecorino. Why even leave this comment?"
+    }
+    ,
+    {
+    "@type": "Review",
+    "author": {
+    "@type": "Person",
+    "name": "EdipisReks"
+    },
+    "reviewBody": "I do cacio with orechiette. The little pockets carry the bloomed pepper oil in delightful pops."
+    }
+    ,
+    {
+    "@type": "Review",
+    "author": {
+    "@type": "Person",
+    "name": "QSBJ"
+    },
+    "reviewBody": "Made 1/2 recipe for lunch -- came together beautifully. Need to add more pepper next time. Used linguine and parm instead. Also cooked some asparagus which I added to the top of the finished bowl. Might even consider some chopped bacon, too!"
+    }
+    ,
+    {
+    "@type": "Review",
+    "author": {
+    "@type": "Person",
+    "name": "chanterelle"
+    },
+    "reviewBody": "I made this for myself tonight, I cut the recipe down to a third of a lb. of pasta (Rao's for those keeping score), and guesstimated the amounts. I followed the recipe, and kept the heat down. I was confused about the pan with the pepper oil mixture, but just put it off the burner while cooking the pasta, then placed the pan back on a burner at its lowest setting. I used ground cheese. It was magnificent! No protein smears on the pan, and creamy. I had it with a Panzanella salad I made this afternoon, and a glass of a red blend. There was enough for a second helping too, which I enjoyed nearly as much as the first. Thanks!"
+    }
+    ]
+    ,"mainEntityOfPage": {
+    "@type": ["WebPage"]
+    ,"@id": "https://www.seriouseats.com/spaghetti-cacio-e-pepe-recipe"
+    ,"breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+    {
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+    "@id": "https://www.seriouseats.com/main-recipes-by-type-5117824",
+    "name": "Mains By Type"
+    }
+    }
+    ,
+    {
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+    "@id": "https://www.seriouseats.com/pasta-main-recipes-5117817",
+    "name": "Pasta Mains"
+    }
+    }
+    ,
+    {
+    "@type": "ListItem",
+    "position": 3,
+    "item": {
+    "@id": "https://www.seriouseats.com/spaghetti-cacio-e-pepe-recipe",
+    "name": "Cacio e Pepe (Spaghetti With Black Pepper and Pecorino Romano) Recipe"
+    }
+    }
+    ]
+    }
+    }
+    , "about": [
+    ]		
+    }
+    

@@ -3,6 +3,9 @@ class RecipeCard extends HTMLElement {
     // Part 1 Expose - TODO
 
     // You'll want to attach the shadow DOM here
+    super();
+    this.attachShadow({ mode: 'open' });
+
   }
 
   set data(data) {
@@ -100,6 +103,93 @@ class RecipeCard extends HTMLElement {
     // created in the constructor()
 
     // Part 1 Expose - TODO
+    //Load data from JSON into variables
+    const recipeTitleStr = searchForKey(data, 'headline');
+    const recipeUrl = getUrl(data);
+    const recipeThumbnailUrl = searchForKey(data, 'thumbnailUrl');
+    const organizationStr = getOrganization(data);
+    const ratingObj = searchForKey(data, 'aggregateRating');
+    const timeValue = searchForKey(data, 'totalTime');
+    const ingredientArr = searchForKey(data, 'recipeIngredient');
+    
+    //Image Element
+    const imageElem = document.createElement('img');
+    imageElem.src = recipeThumbnailUrl;
+    imageElem.alt = recipeTitleStr;
+    card.appendChild(imageElem);
+    
+    //Title Element
+    const titleElem = document.createElement('p');
+    titleElem.className = 'title';
+    const recipeLink = document.createElement('a');
+    recipeLink.href = recipeUrl;
+    recipeLink.innerHTML = recipeTitleStr;
+    titleElem.appendChild(recipeLink);
+    card.appendChild(titleElem);
+
+    //Organization Element
+    const organizationElem = document.createElement('p');
+    organizationElem.className = 'organization';
+    organizationElem.innerHTML = organizationStr;
+    card.appendChild(organizationElem);
+
+    //Rating Element
+    const ratingElem = document.createElement('div');
+    ratingElem.className = 'rating';
+    if (ratingObj === undefined) {
+      const review = document.createElement('span');
+      review.innerHTML = "No Reviews"
+      ratingElem.appendChild(review);
+    } else {
+      const reviewValue = searchForKey(ratingObj, 'ratingValue');
+      const numReviews = searchForKey(ratingObj, 'ratingCount');
+
+      const averageReviewElem = document.createElement('span');
+      averageReviewElem.innerHTML = reviewValue;
+      ratingElem.appendChild(averageReviewElem);
+      
+      const reviewImgElem = document.createElement('img');
+      if (reviewValue < 1) {
+        reviewImgElem.src = 'assets/images/icons/0-star.svg';
+        reviewImgElem.alt = '0 stars';
+      } else if (reviewValue < 2) { 
+        reviewImgElem.src = 'assets/images/icons/1-star.svg';
+        reviewImgElem.alt = '1 stars';
+      } else if (reviewValue < 3) {
+        reviewImgElem.src = 'assets/images/icons/2-star.svg';
+        reviewImgElem.alt = '2 stars';
+      } else if (reviewValue < 4) {
+        reviewImgElem.src = 'assets/images/icons/3-star.svg';
+        reviewImgElem.alt = '3 stars';
+      } else if (reviewValue < 4.5) { 
+        reviewImgElem.src = 'assets/images/icons/4-star.svg';
+        reviewImgElem.alt = '4 stars';
+      } else {
+        reviewImgElem.src = 'assets/images/icons/5-star.svg';
+        reviewImgElem.alt = '5 stars';
+      }
+      ratingElem.appendChild(reviewImgElem);
+
+      const numReviewsElem = document.createElement('span');
+      numReviewsElem.innerHTML = '(' + numReviews + ')';
+      ratingElem.appendChild(numReviewsElem);
+    }
+    card.appendChild(ratingElem);
+
+    //Time Element
+    const timeElem = document.createElement('time');
+    if (timeValue !== undefined) timeElem.innerHTML = convertTime(timeValue);
+    card.appendChild(timeElem);
+
+    //Ingredients Element
+    const ingredientsElem = document.createElement('p');
+    ingredientsElem.className = 'ingredients';
+    ingredientsElem.innerHTML = createIngredientList(ingredientArr);
+    card.appendChild(ingredientsElem);
+    
+    //Add card and style to Shadow DOM
+    this.shadowRoot.appendChild(styleElem);
+    this.shadowRoot.appendChild(card);
   }
 }
 
